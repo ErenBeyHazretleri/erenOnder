@@ -1,3 +1,4 @@
+/* Genel stil ayarları */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -20,7 +21,6 @@ header {
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    padding: 1px;
 }
 
 .profile {
@@ -30,22 +30,26 @@ header {
 }
 
 .profile-img {
-    width: 250px;
-    height: 250px;
+    width: 200px; /* Fotoğrafın genişliğini küçültür */
+    height: 200px; /* Fotoğrafın yüksekliğini küçültür */
     border-radius: 20%;
     margin-right: 10px;
     padding: 3px;
 }
 
+.name-title {
+    text-align: left; /* Yazıyı sola hizalar */
+}
+
 .name-title h1 {
     margin: 0;
-    font-size: 3em; 
+    font-size: 2.5em; /* Font boyutunu küçültür */
     color: #333;
 }
 
 .name-title h2 {
     margin: 0;
-    font-size: 2.5em; 
+    font-size: 2em; /* Font boyutunu küçültür */
     color: #333;
 }
 
@@ -57,7 +61,7 @@ header {
 .contact p {
     margin: 5px 0;
     color: #666;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 section {
@@ -126,9 +130,9 @@ ul li {
     justify-content: center;
     align-items: center;      
 }
+
 .contact p i {
     margin-right: 10px;
     color: #333;
     font-size: 18px;
 }
-
